@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import '../assets/css/Main.css';
-// import Modal from './Modal.js';
-import '../assets/css/Modal.css'
-
+import Modal from './Modal.js';
 
 import ReactModal from 'react-modal';
 
-// ReactModal.setAppElement('#root');
+ReactModal.setAppElement('#root');
 
 const Main = () => {
     // animation
@@ -42,11 +40,8 @@ const Main = () => {
                             PLAY
                         </button>
                     </div>
-                    <ReactModal isOpen={isOpen} onRequestClose={toggleModal} >
-                        <div className='mymodal' overlayClassName='myoverlay' closeTimeoutMS={300}>
-            <img className='border-gray-300 max-h-full max-w-full rounded-md inline-block align-middle' src={require('../assets/img/resume.png')} alt='' />
-
-</div>
+                    <ReactModal isOpen={isOpen} onRequestClose={toggleModal}>
+                        <Modal />
                     </ReactModal>
                 </div>
             }
