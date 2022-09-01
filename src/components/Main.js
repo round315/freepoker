@@ -40,8 +40,12 @@ const Main = () => {
                             PLAY
                         </button>
                     </div>
-                    <ReactModal isOpen={isOpen} onRequestClose={toggleModal}>
-                        <Modal />
+                    <ReactModal isOpen={isOpen} onRequestClose={toggleModal} className='mymodal' overlayClassName='myoverlay' closeTimeoutMS={300}>
+                        <Modal>
+                            <button onClick={toggleModal}>
+                                
+                            </button>
+                        </Modal>
                     </ReactModal>
                 </div>
             }
