@@ -12,13 +12,18 @@ module.exports = {
       height: {
         '120': '120%',
       },
+      width: {
+        '120': '600px',
+      },
       rounded: {
         'r60': '60%',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
+      
     },
+
   },
   plugins: [],
 }
