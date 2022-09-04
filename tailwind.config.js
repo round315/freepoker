@@ -15,13 +15,16 @@ module.exports = {
       width: {
         '120': '600px',
       },
+      top: {
+        '18': '70px',
+      },
       rounded: {
         'r60': '60%',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
-      
+
     },
 
   },

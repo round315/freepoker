@@ -125,8 +125,8 @@ export default function App() {
             <div className=' '>
               <div className='absolute left-1/2 top-64'>
                 <img className='relative h-32 -left-1/2' src={you} alt='' />
-                <p className='absolute z-30 top-8 grid justify-center -translate-x-4' >$1000</p>
-                <p className='absolute z-30 top-20 content-center -translate-x-4' >You</p>
+                <p className='absolute z-30 top-8 grid justify-center -translate-x-6 text-lg' >$1000</p>
+                <p className='absolute z-30 top-20 content-center -translate-x-4 text-lg' >You</p>
                 <div className='absolute top-6 translate-x-24'>
                   <img className='h-12' src={chips1} alt='' />
                 </div>
