@@ -12,7 +12,11 @@ import chips1 from './assets/img/chips1.png';
 import chips2 from './assets/img/chips2.png';
 import card from './assets/img/card.png';
 import position from './assets/img/position.png';
+import position1 from './assets/img/position1.png';
+import position2 from './assets/img/position2.png';
 import you from './assets/img/you.png';
+import you1 from './assets/img/you1.png';
+import you2 from './assets/img/you2.png';
 import card1 from './assets/img/card1.png';
 import card2 from './assets/img/card2.png';
 
@@ -94,50 +98,54 @@ export default function App() {
           </div>
           <div className='absolute top-60 w-3/5'>
             <div className='float-left'>
-              <img className='absolute -translate-y-16 h-28 z-10' src={card1} alt='' />
-              <img className='h-24' src={position} alt='' />
+              {/* <img className='h-24' src={position} alt='' /> */}
+              <img className='h-44 -translate-y-24' src={position1} alt='' />
               <p className='absolute z-30 top-6 grid justify-center translate-x-10' >$1000</p>
               <p className='absolute z-30 top-12 content-center translate-x-10' >name</p>
-              <div className='absolute top-6 translate-x-24'>
+              <div className='absolute -top-4 translate-x-24'>
                 <img className='h-12' src={chips1} alt='' />
               </div>
             </div>
             <div className=' float-right'>
               <div className='float-left'>
-                <img className='h-24' src={position} alt='' />
+                {/* <img className='h-24' src={position} alt='' /> */}
+                <img className='h-44 -translate-y-24' src={position1} alt='' />
                 <p className='absolute z-30 top-6 grid justify-center translate-x-10' >$1000</p>
                 <p className='absolute z-30 top-12 content-center translate-x-10' >name</p>
-                <div className='absolute top-6 -translate-x-16'>
+                <div className='absolute -top-4 -translate-x-16'>
                   <img className='h-12' src={chips1} alt='' />
                 </div>
               </div>
             </div>
             <div className=' '>
               <div className='absolute right-20 top-60'>
-                <img className='h-24' src={position} alt='' />
+                {/* <img className='h-24' src={position} alt='' /> */}
+                <img className='h-44 -translate-y-24' src={position1} alt='' />
                 <p className='absolute z-30 top-6 grid justify-center translate-x-10' >$1000</p>
                 <p className='absolute z-30 top-12 content-center translate-x-10' >name</p>
-                <div className='absolute top-6 -translate-x-16'>
+                <div className='absolute -top-4 -translate-x-16'>
                   <img className='h-12' src={chips1} alt='' />
                 </div>
               </div>
             </div>
             <div className=' '>
               <div className='absolute left-1/2 top-64'>
-                <img className='relative h-32 -left-1/2' src={you} alt='' />
+                {/* <img className='relative h-32 -left-1/2' src={you} alt='' /> */}
+                <img className='relative h-48 -translate-y-24 -left-1/2' src={you1} alt='' />
                 <p className='absolute z-30 top-8 grid justify-center -translate-x-6 text-lg' >$1000</p>
-                <p className='absolute z-30 top-20 content-center -translate-x-4 text-lg' >You</p>
-                <div className='absolute top-6 translate-x-24'>
+                <p className='absolute z-30 top-16 content-center -translate-x-4 text-lg' >You</p>
+                <div className='absolute -top-4 translate-x-12'>
                   <img className='h-12' src={chips1} alt='' />
                 </div>
               </div>
             </div>
             <div className=' '>
               <div className='absolute left-20 top-60'>
-                <img className='h-24' src={position} alt='' />
+                {/* <img className='h-24' src={position} alt='' /> */}
+                <img className='h-44 -translate-y-24' src={position1} alt='' />
                 <p className='absolute z-30 top-6 grid justify-center translate-x-10' >$1000</p>
                 <p className='absolute z-30 top-12 content-center translate-x-10' >name</p>
-                <div className='absolute top-6 translate-x-24'>
+                <div className='absolute -top-4 translate-x-24'>
                   <img className='h-12' src={chips1} alt='' />
                 </div>
               </div>
